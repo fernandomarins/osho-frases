@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55759AB91EC1FE6F00F7B849"
-               BuildableName = "Luz Osho.app"
-               BlueprintName = "Luz Osho"
-               ReferencedContainer = "container:Luz Osho.xcodeproj">
+               BlueprintIdentifier = "55759ADB1EC1FF4100F7B849"
+               BuildableName = "Luz-Osho.app"
+               BlueprintName = "Luz-Osho"
+               ReferencedContainer = "container:Luz-Osho.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "55759AB91EC1FE6F00F7B849"
-            BuildableName = "Luz Osho.app"
-            BlueprintName = "Luz Osho"
-            ReferencedContainer = "container:Luz Osho.xcodeproj">
+            BlueprintIdentifier = "55759ADB1EC1FF4100F7B849"
+            BuildableName = "Luz-Osho.app"
+            BlueprintName = "Luz-Osho"
+            ReferencedContainer = "container:Luz-Osho.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "55759AB91EC1FE6F00F7B849"
-            BuildableName = "Luz Osho.app"
-            BlueprintName = "Luz Osho"
-            ReferencedContainer = "container:Luz Osho.xcodeproj">
+            BlueprintIdentifier = "55759ADB1EC1FF4100F7B849"
+            BuildableName = "Luz-Osho.app"
+            BlueprintName = "Luz-Osho"
+            ReferencedContainer = "container:Luz-Osho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "55759AB91EC1FE6F00F7B849"
-            BuildableName = "Luz Osho.app"
-            BlueprintName = "Luz Osho"
-            ReferencedContainer = "container:Luz Osho.xcodeproj">
+            BlueprintIdentifier = "55759ADB1EC1FF4100F7B849"
+            BuildableName = "Luz-Osho.app"
+            BlueprintName = "Luz-Osho"
+            ReferencedContainer = "container:Luz-Osho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

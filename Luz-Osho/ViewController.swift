@@ -1,6 +1,6 @@
 //
-//  DataViewController.swift
-//  Luz Osho
+//  ViewController.swift
+//  Luz-Osho
 //
 //  Created by Fernando Augusto de Marins on 09/05/17.
 //  Copyright © 2017 Fernando Augusto de Marins. All rights reserved.
@@ -8,11 +8,7 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +18,6 @@ class DataViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 

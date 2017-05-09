@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Luz Osho.xcscheme</key>
+		<key>Luz-Osho.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>55759AB91EC1FE6F00F7B849</key>
+		<key>55759ADB1EC1FF4100F7B849</key>
 		<dict>
 			<key>primary</key>
 			<true/>

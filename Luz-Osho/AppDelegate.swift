@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Luz Osho
+//  Luz-Osho
 //
 //  Created by Fernando Augusto de Marins on 09/05/17.
 //  Copyright © 2017 Fernando Augusto de Marins. All rights reserved.

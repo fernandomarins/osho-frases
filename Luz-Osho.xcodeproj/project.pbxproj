@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55759ABE1EC1FE6F00F7B849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759ABD1EC1FE6F00F7B849 /* AppDelegate.swift */; };
-		55759AC01EC1FE6F00F7B849 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759ABF1EC1FE6F00F7B849 /* RootViewController.swift */; };
-		55759AC21EC1FE6F00F7B849 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759AC11EC1FE6F00F7B849 /* DataViewController.swift */; };
-		55759AC41EC1FE6F00F7B849 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759AC31EC1FE6F00F7B849 /* ModelController.swift */; };
-		55759AC71EC1FE6F00F7B849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AC51EC1FE6F00F7B849 /* Main.storyboard */; };
-		55759AC91EC1FE6F00F7B849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55759AC81EC1FE6F00F7B849 /* Assets.xcassets */; };
-		55759ACC1EC1FE6F00F7B849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759ACA1EC1FE6F00F7B849 /* LaunchScreen.storyboard */; };
+		55759AE01EC1FF4100F7B849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */; };
+		55759AE21EC1FF4100F7B849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759AE11EC1FF4100F7B849 /* ViewController.swift */; };
+		55759AE51EC1FF4100F7B849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE31EC1FF4100F7B849 /* Main.storyboard */; };
+		55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE61EC1FF4100F7B849 /* Assets.xcassets */; };
+		55759AEA1EC1FF4100F7B849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55759ABA1EC1FE6F00F7B849 /* Luz Osho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luz Osho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55759ABD1EC1FE6F00F7B849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55759ABF1EC1FE6F00F7B849 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		55759AC11EC1FE6F00F7B849 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		55759AC31EC1FE6F00F7B849 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		55759AC61EC1FE6F00F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55759AC81EC1FE6F00F7B849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55759ACB1EC1FE6F00F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		55759ACD1EC1FE6F00F7B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55759ADC1EC1FF4100F7B849 /* Luz-Osho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luz-Osho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55759AE11EC1FF4100F7B849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55759AE41EC1FF4100F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55759AE61EC1FF4100F7B849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55759AE91EC1FF4100F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55759AEB1EC1FF4100F7B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55759AB71EC1FE6F00F7B849 /* Frameworks */ = {
+		55759AD91EC1FF4100F7B849 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,75 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55759AB11EC1FE6F00F7B849 = {
+		55759AD31EC1FF4000F7B849 = {
 			isa = PBXGroup;
 			children = (
-				55759ABC1EC1FE6F00F7B849 /* Luz Osho */,
-				55759ABB1EC1FE6F00F7B849 /* Products */,
+				55759ADE1EC1FF4100F7B849 /* Luz-Osho */,
+				55759ADD1EC1FF4100F7B849 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		55759ABB1EC1FE6F00F7B849 /* Products */ = {
+		55759ADD1EC1FF4100F7B849 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55759ABA1EC1FE6F00F7B849 /* Luz Osho.app */,
+				55759ADC1EC1FF4100F7B849 /* Luz-Osho.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55759ABC1EC1FE6F00F7B849 /* Luz Osho */ = {
+		55759ADE1EC1FF4100F7B849 /* Luz-Osho */ = {
 			isa = PBXGroup;
 			children = (
-				55759ABD1EC1FE6F00F7B849 /* AppDelegate.swift */,
-				55759ABF1EC1FE6F00F7B849 /* RootViewController.swift */,
-				55759AC11EC1FE6F00F7B849 /* DataViewController.swift */,
-				55759AC31EC1FE6F00F7B849 /* ModelController.swift */,
-				55759AC51EC1FE6F00F7B849 /* Main.storyboard */,
-				55759AC81EC1FE6F00F7B849 /* Assets.xcassets */,
-				55759ACA1EC1FE6F00F7B849 /* LaunchScreen.storyboard */,
-				55759ACD1EC1FE6F00F7B849 /* Info.plist */,
+				55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */,
+				55759AE11EC1FF4100F7B849 /* ViewController.swift */,
+				55759AE31EC1FF4100F7B849 /* Main.storyboard */,
+				55759AE61EC1FF4100F7B849 /* Assets.xcassets */,
+				55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */,
+				55759AEB1EC1FF4100F7B849 /* Info.plist */,
 			);
-			path = "Luz Osho";
+			path = "Luz-Osho";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55759AB91EC1FE6F00F7B849 /* Luz Osho */ = {
+		55759ADB1EC1FF4100F7B849 /* Luz-Osho */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55759AD01EC1FE6F00F7B849 /* Build configuration list for PBXNativeTarget "Luz Osho" */;
+			buildConfigurationList = 55759AEE1EC1FF4100F7B849 /* Build configuration list for PBXNativeTarget "Luz-Osho" */;
 			buildPhases = (
-				55759AB61EC1FE6F00F7B849 /* Sources */,
-				55759AB71EC1FE6F00F7B849 /* Frameworks */,
-				55759AB81EC1FE6F00F7B849 /* Resources */,
+				55759AD81EC1FF4100F7B849 /* Sources */,
+				55759AD91EC1FF4100F7B849 /* Frameworks */,
+				55759ADA1EC1FF4100F7B849 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Luz Osho";
-			productName = "Luz Osho";
-			productReference = 55759ABA1EC1FE6F00F7B849 /* Luz Osho.app */;
+			name = "Luz-Osho";
+			productName = "Luz-Osho";
+			productReference = 55759ADC1EC1FF4100F7B849 /* Luz-Osho.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55759AB21EC1FE6F00F7B849 /* Project object */ = {
+		55759AD41EC1FF4000F7B849 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Fernando Augusto de Marins";
 				TargetAttributes = {
-					55759AB91EC1FE6F00F7B849 = {
+					55759ADB1EC1FF4100F7B849 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = C8ULV38G2Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 55759AB51EC1FE6F00F7B849 /* Build configuration list for PBXProject "Luz Osho" */;
+			buildConfigurationList = 55759AD71EC1FF4000F7B849 /* Build configuration list for PBXProject "Luz-Osho" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,56 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 55759AB11EC1FE6F00F7B849;
-			productRefGroup = 55759ABB1EC1FE6F00F7B849 /* Products */;
+			mainGroup = 55759AD31EC1FF4000F7B849;
+			productRefGroup = 55759ADD1EC1FF4100F7B849 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55759AB91EC1FE6F00F7B849 /* Luz Osho */,
+				55759ADB1EC1FF4100F7B849 /* Luz-Osho */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55759AB81EC1FE6F00F7B849 /* Resources */ = {
+		55759ADA1EC1FF4100F7B849 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55759ACC1EC1FE6F00F7B849 /* LaunchScreen.storyboard in Resources */,
-				55759AC91EC1FE6F00F7B849 /* Assets.xcassets in Resources */,
-				55759AC71EC1FE6F00F7B849 /* Main.storyboard in Resources */,
+				55759AEA1EC1FF4100F7B849 /* LaunchScreen.storyboard in Resources */,
+				55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */,
+				55759AE51EC1FF4100F7B849 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55759AB61EC1FE6F00F7B849 /* Sources */ = {
+		55759AD81EC1FF4100F7B849 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55759AC01EC1FE6F00F7B849 /* RootViewController.swift in Sources */,
-				55759AC41EC1FE6F00F7B849 /* ModelController.swift in Sources */,
-				55759AC21EC1FE6F00F7B849 /* DataViewController.swift in Sources */,
-				55759ABE1EC1FE6F00F7B849 /* AppDelegate.swift in Sources */,
+				55759AE21EC1FF4100F7B849 /* ViewController.swift in Sources */,
+				55759AE01EC1FF4100F7B849 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55759AC51EC1FE6F00F7B849 /* Main.storyboard */ = {
+		55759AE31EC1FF4100F7B849 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55759AC61EC1FE6F00F7B849 /* Base */,
+				55759AE41EC1FF4100F7B849 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		55759ACA1EC1FE6F00F7B849 /* LaunchScreen.storyboard */ = {
+		55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55759ACB1EC1FE6F00F7B849 /* Base */,
+				55759AE91EC1FF4100F7B849 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		55759ACE1EC1FE6F00F7B849 /* Debug */ = {
+		55759AEC1EC1FF4100F7B849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		55759ACF1EC1FE6F00F7B849 /* Release */ = {
+		55759AED1EC1FF4100F7B849 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,12 +257,12 @@
 			};
 			name = Release;
 		};
-		55759AD11EC1FE6F00F7B849 /* Debug */ = {
+		55759AEF1EC1FF4100F7B849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8ULV38G2Z;
-				INFOPLIST_FILE = "Luz Osho/Info.plist";
+				INFOPLIST_FILE = "Luz-Osho/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FM.Luz-Osho";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,12 +270,12 @@
 			};
 			name = Debug;
 		};
-		55759AD21EC1FE6F00F7B849 /* Release */ = {
+		55759AF01EC1FF4100F7B849 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8ULV38G2Z;
-				INFOPLIST_FILE = "Luz Osho/Info.plist";
+				INFOPLIST_FILE = "Luz-Osho/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FM.Luz-Osho";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55759AB51EC1FE6F00F7B849 /* Build configuration list for PBXProject "Luz Osho" */ = {
+		55759AD71EC1FF4000F7B849 /* Build configuration list for PBXProject "Luz-Osho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55759ACE1EC1FE6F00F7B849 /* Debug */,
-				55759ACF1EC1FE6F00F7B849 /* Release */,
+				55759AEC1EC1FF4100F7B849 /* Debug */,
+				55759AED1EC1FF4100F7B849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55759AD01EC1FE6F00F7B849 /* Build configuration list for PBXNativeTarget "Luz Osho" */ = {
+		55759AEE1EC1FF4100F7B849 /* Build configuration list for PBXNativeTarget "Luz-Osho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55759AD11EC1FE6F00F7B849 /* Debug */,
-				55759AD21EC1FE6F00F7B849 /* Release */,
+				55759AEF1EC1FF4100F7B849 /* Debug */,
+				55759AF01EC1FF4100F7B849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55759AB21EC1FE6F00F7B849 /* Project object */;
+	rootObject = 55759AD41EC1FF4000F7B849 /* Project object */;
 }
