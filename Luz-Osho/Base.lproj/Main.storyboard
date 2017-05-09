@@ -22,8 +22,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
+                                <rect key="frame" x="29" y="155" width="317" height="330"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OSHO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCX-2f-brR">
+                                <rect key="frame" x="131" y="53" width="112" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dew-Bo-UBs">
-                                <rect key="frame" x="153" y="559" width="70" height="34"/>
+                                <rect key="frame" x="152" y="613" width="70" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Nova luz">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,34 +45,23 @@
                                     <action selector="getPhrase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ulf-GT-IX3"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="OSHO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uYw-x7-exZ">
-                                <rect key="frame" x="123" y="57" width="130" height="54"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
-                                <rect key="frame" x="29" y="155" width="317" height="330"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="dew-Bo-UBs" firstAttribute="top" secondItem="sBd-M6-RuY" secondAttribute="bottom" constant="74" id="6s0-Ai-Hz4"/>
+                            <constraint firstItem="ZCX-2f-brR" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="5Jf-PK-jNK"/>
+                            <constraint firstItem="dew-Bo-UBs" firstAttribute="top" secondItem="sBd-M6-RuY" secondAttribute="bottom" constant="128" id="6s0-Ai-Hz4"/>
                             <constraint firstItem="dew-Bo-UBs" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="Nhj-kw-LDH"/>
-                            <constraint firstItem="uYw-x7-exZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="WLx-MW-H1B"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dew-Bo-UBs" secondAttribute="bottom" constant="74" id="e2I-Rv-NDo"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="ZCX-2f-brR" secondAttribute="bottom" constant="54" id="XG3-sF-7h1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dew-Bo-UBs" secondAttribute="bottom" constant="20" id="e2I-Rv-NDo"/>
+                            <constraint firstItem="ZCX-2f-brR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="hSl-VD-fN9"/>
                             <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lRH-lm-sJe"/>
-                            <constraint firstItem="uYw-x7-exZ" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="nLa-KY-BQ5"/>
                             <constraint firstItem="sBd-M6-RuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="opE-7O-F94"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="uYw-x7-exZ" secondAttribute="bottom" constant="44" id="ztc-yo-OmL"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="newPhraseButton" destination="dew-Bo-UBs" id="jfN-6v-cYa"/>
                         <outlet property="textView" destination="sBd-M6-RuY" id="lYN-WF-d5U"/>
+                        <outlet property="titleText" destination="ZCX-2f-brR" id="nTX-AE-mfu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

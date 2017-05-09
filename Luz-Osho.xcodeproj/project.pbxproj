@@ -15,6 +15,8 @@
 		55759AE51EC1FF4100F7B849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE31EC1FF4100F7B849 /* Main.storyboard */; };
 		55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE61EC1FF4100F7B849 /* Assets.xcassets */; };
 		55759AEA1EC1FF4100F7B849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */; };
+		559BCF451EC24BF9001F971F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 559BCF441EC24BF9001F971F /* Roboto-Regular.ttf */; };
+		559BCF471EC24E40001F971F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BCF461EC24E40001F971F /* Extensions.swift */; };
 		55E388271EC205DE00564338 /* luz-osho-export.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E388261EC205DE00564338 /* luz-osho-export.json */; };
 		C3F3086ACB316E75E6089021 /* Pods_Luz_Osho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7085E9C0E2DBC0D6934A888E /* Pods_Luz_Osho.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,8 @@
 		55759AE61EC1FF4100F7B849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55759AE91EC1FF4100F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55759AEB1EC1FF4100F7B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559BCF441EC24BF9001F971F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		559BCF461EC24E40001F971F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		55E388261EC205DE00564338 /* luz-osho-export.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "luz-osho-export.json"; sourceTree = "<group>"; };
 		7085E9C0E2DBC0D6934A888E /* Pods_Luz_Osho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luz_Osho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F597D1CD081EEDABA7D51C88 /* Pods-Luz-Osho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luz-Osho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Luz-Osho/Pods-Luz-Osho.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			children = (
 				55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */,
 				55759AE11EC1FF4100F7B849 /* PhraseViewController.swift */,
+				559BCF461EC24E40001F971F /* Extensions.swift */,
 				5523B5101EC2044200739974 /* Phrase.swift */,
 				5523B5121EC204A200739974 /* Phrases.swift */,
 				55759AE31EC1FF4100F7B849 /* Main.storyboard */,
@@ -78,6 +83,7 @@
 				55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */,
 				55759AEB1EC1FF4100F7B849 /* Info.plist */,
 				551042671EC2037D00EE883A /* GoogleService-Info.plist */,
+				559BCF441EC24BF9001F971F /* Roboto-Regular.ttf */,
 				55E388261EC205DE00564338 /* luz-osho-export.json */,
 			);
 			path = "Luz-Osho";
@@ -163,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559BCF451EC24BF9001F971F /* Roboto-Regular.ttf in Resources */,
 				55759AEA1EC1FF4100F7B849 /* LaunchScreen.storyboard in Resources */,
 				551042681EC2037D00EE883A /* GoogleService-Info.plist in Resources */,
 				55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */,
@@ -226,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559BCF471EC24E40001F971F /* Extensions.swift in Sources */,
 				5523B5111EC2044200739974 /* Phrase.swift in Sources */,
 				55759AE21EC1FF4100F7B849 /* PhraseViewController.swift in Sources */,
 				5523B5131EC204A200739974 /* Phrases.swift in Sources */,
