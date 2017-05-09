@@ -33,17 +33,14 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="OSHO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uYw-x7-exZ">
-                                <rect key="frame" x="122.5" y="57" width="130" height="54"/>
+                                <rect key="frame" x="123" y="57" width="130" height="54"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
-                                <rect key="frame" x="29" y="155" width="317" height="396"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
+                                <rect key="frame" x="29" y="155" width="317" height="330"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="396" id="aGb-UG-Dxh"/>
-                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -51,13 +48,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uYw-x7-exZ" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="0rK-xz-KuQ"/>
-                            <constraint firstItem="uYw-x7-exZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="6CV-lN-gwZ"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="aO4-Te-XnY"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="igx-6Y-bH6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dew-Bo-UBs" secondAttribute="bottom" constant="74" id="nO7-pC-A1b"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="dew-Bo-UBs" secondAttribute="centerX" id="pn6-vC-pwk"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="155" id="xLc-ST-TPi"/>
+                            <constraint firstItem="dew-Bo-UBs" firstAttribute="top" secondItem="sBd-M6-RuY" secondAttribute="bottom" constant="74" id="6s0-Ai-Hz4"/>
+                            <constraint firstItem="dew-Bo-UBs" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="Nhj-kw-LDH"/>
+                            <constraint firstItem="uYw-x7-exZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="WLx-MW-H1B"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dew-Bo-UBs" secondAttribute="bottom" constant="74" id="e2I-Rv-NDo"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lRH-lm-sJe"/>
+                            <constraint firstItem="uYw-x7-exZ" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="nLa-KY-BQ5"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="opE-7O-F94"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="uYw-x7-exZ" secondAttribute="bottom" constant="44" id="ztc-yo-OmL"/>
                         </constraints>
                     </view>
                     <connections>

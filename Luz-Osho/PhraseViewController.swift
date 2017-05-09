@@ -41,9 +41,6 @@ class PhraseViewController: UIViewController {
                 let phrase = Phrase(data: data)
                 me.phrases.append(phrase)
             }
-            
-            print(me.phrases)
-            
         })
     }
     
