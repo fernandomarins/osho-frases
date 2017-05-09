@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		551042681EC2037D00EE883A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551042671EC2037D00EE883A /* GoogleService-Info.plist */; };
+		5523B5111EC2044200739974 /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523B5101EC2044200739974 /* Phrase.swift */; };
+		5523B5131EC204A200739974 /* Phrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523B5121EC204A200739974 /* Phrases.swift */; };
 		55759AE01EC1FF4100F7B849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */; };
 		55759AE21EC1FF4100F7B849 /* PhraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759AE11EC1FF4100F7B849 /* PhraseViewController.swift */; };
 		55759AE51EC1FF4100F7B849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE31EC1FF4100F7B849 /* Main.storyboard */; };
 		55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE61EC1FF4100F7B849 /* Assets.xcassets */; };
 		55759AEA1EC1FF4100F7B849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */; };
+		55E388271EC205DE00564338 /* luz-osho-export.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E388261EC205DE00564338 /* luz-osho-export.json */; };
 		C3F3086ACB316E75E6089021 /* Pods_Luz_Osho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7085E9C0E2DBC0D6934A888E /* Pods_Luz_Osho.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		230839A57E43C191638812B9 /* Pods-Luz-Osho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luz-Osho.release.xcconfig"; path = "Pods/Target Support Files/Pods-Luz-Osho/Pods-Luz-Osho.release.xcconfig"; sourceTree = "<group>"; };
 		551042671EC2037D00EE883A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5523B5101EC2044200739974 /* Phrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		5523B5121EC204A200739974 /* Phrases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phrases.swift; sourceTree = "<group>"; };
 		55759ADC1EC1FF4100F7B849 /* Luz-Osho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luz-Osho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55759AE11EC1FF4100F7B849 /* PhraseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		55759AE61EC1FF4100F7B849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55759AE91EC1FF4100F7B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55759AEB1EC1FF4100F7B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E388261EC205DE00564338 /* luz-osho-export.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "luz-osho-export.json"; sourceTree = "<group>"; };
 		7085E9C0E2DBC0D6934A888E /* Pods_Luz_Osho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luz_Osho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F597D1CD081EEDABA7D51C88 /* Pods-Luz-Osho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luz-Osho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Luz-Osho/Pods-Luz-Osho.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,11 +71,14 @@
 			children = (
 				55759ADF1EC1FF4100F7B849 /* AppDelegate.swift */,
 				55759AE11EC1FF4100F7B849 /* PhraseViewController.swift */,
+				5523B5101EC2044200739974 /* Phrase.swift */,
+				5523B5121EC204A200739974 /* Phrases.swift */,
 				55759AE31EC1FF4100F7B849 /* Main.storyboard */,
 				55759AE61EC1FF4100F7B849 /* Assets.xcassets */,
 				55759AE81EC1FF4100F7B849 /* LaunchScreen.storyboard */,
 				55759AEB1EC1FF4100F7B849 /* Info.plist */,
 				551042671EC2037D00EE883A /* GoogleService-Info.plist */,
+				55E388261EC205DE00564338 /* luz-osho-export.json */,
 			);
 			path = "Luz-Osho";
 			sourceTree = "<group>";
@@ -158,6 +167,7 @@
 				551042681EC2037D00EE883A /* GoogleService-Info.plist in Resources */,
 				55759AE71EC1FF4100F7B849 /* Assets.xcassets in Resources */,
 				55759AE51EC1FF4100F7B849 /* Main.storyboard in Resources */,
+				55E388271EC205DE00564338 /* luz-osho-export.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5523B5111EC2044200739974 /* Phrase.swift in Sources */,
 				55759AE21EC1FF4100F7B849 /* PhraseViewController.swift in Sources */,
+				5523B5131EC204A200739974 /* Phrases.swift in Sources */,
 				55759AE01EC1FF4100F7B849 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

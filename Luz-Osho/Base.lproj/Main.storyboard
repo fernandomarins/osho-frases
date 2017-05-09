@@ -28,6 +28,9 @@
                                 <state key="normal" title="Nova luz">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="getPhrase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ulf-GT-IX3"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="OSHO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uYw-x7-exZ">
                                 <rect key="frame" x="122.5" y="57" width="130" height="54"/>
@@ -36,10 +39,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
-                                <rect key="frame" x="29" y="155" width="317" height="128"/>
+                                <rect key="frame" x="29" y="155" width="317" height="396"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="aGb-UG-Dxh"/>
+                                    <constraint firstAttribute="height" constant="396" id="aGb-UG-Dxh"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -57,6 +60,9 @@
                             <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="155" id="xLc-ST-TPi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="sBd-M6-RuY" id="lYN-WF-d5U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

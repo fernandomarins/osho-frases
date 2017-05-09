@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E592EBE7684512947AB7B9ACA9C59E83"
+               BlueprintIdentifier = "FFDFAD7A4A452F4E2B45280E0F70F550"
                BuildableName = "Pods_Luz_Osho.framework"
                BlueprintName = "Pods-Luz-Osho"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E592EBE7684512947AB7B9ACA9C59E83"
+            BlueprintIdentifier = "FFDFAD7A4A452F4E2B45280E0F70F550"
             BuildableName = "Pods_Luz_Osho.framework"
             BlueprintName = "Pods-Luz-Osho"
             ReferencedContainer = "container:Pods.xcodeproj">
