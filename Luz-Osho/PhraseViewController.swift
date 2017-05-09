@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import MBProgressHUD
 
-class PhraseViewController: UIViewController {
+class PhraseViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var titleText: UILabel!
@@ -26,6 +26,8 @@ class PhraseViewController: UIViewController {
         super.viewDidLoad()
         textView.text = ""
         newPhraseButton.isHidden = true
+        textView.delegate = self
+        textView.sizeToFit()
         setUI()
         configureDatabase()
     }

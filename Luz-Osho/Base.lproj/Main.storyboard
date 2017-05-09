@@ -23,8 +23,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-M6-RuY">
-                                <rect key="frame" x="29" y="155" width="317" height="330"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="29" y="288" width="317" height="317"/>
+                                <color key="backgroundColor" red="0.63847452402114868" green="0.78363710641860962" blue="0.85073614120483398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -45,17 +45,35 @@
                                     <action selector="getPhrase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ulf-GT-IX3"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotes" translatesAutoresizingMaskIntoConstraints="NO" id="xfQ-uZ-vJb">
+                                <rect key="frame" x="133" y="186" width="108" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="5Ed-hW-iGk"/>
+                                    <constraint firstAttribute="height" constant="66" id="IbS-oa-gI8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="Cl1-L7-B7V">
+                                <rect key="frame" x="16" y="269" width="343" height="11"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="buS-hj-4Zx"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.63847452402114868" green="0.78363710641860962" blue="0.85073614120483398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ZCX-2f-brR" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="5Jf-PK-jNK"/>
-                            <constraint firstItem="dew-Bo-UBs" firstAttribute="top" secondItem="sBd-M6-RuY" secondAttribute="bottom" constant="128" id="6s0-Ai-Hz4"/>
-                            <constraint firstItem="dew-Bo-UBs" firstAttribute="centerX" secondItem="sBd-M6-RuY" secondAttribute="centerX" id="Nhj-kw-LDH"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="ZCX-2f-brR" secondAttribute="bottom" constant="54" id="XG3-sF-7h1"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="2W6-48-Hng"/>
+                            <constraint firstItem="Cl1-L7-B7V" firstAttribute="centerX" secondItem="xfQ-uZ-vJb" secondAttribute="centerX" id="I8D-dZ-BuO"/>
+                            <constraint firstItem="xfQ-uZ-vJb" firstAttribute="top" secondItem="ZCX-2f-brR" secondAttribute="bottom" constant="85" id="IKp-Lj-C9y"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="dew-Bo-UBs" secondAttribute="centerX" id="Lpf-BT-IcF"/>
+                            <constraint firstItem="ZCX-2f-brR" firstAttribute="centerX" secondItem="xfQ-uZ-vJb" secondAttribute="centerX" id="YFx-ug-vY2"/>
+                            <constraint firstItem="dew-Bo-UBs" firstAttribute="top" secondItem="sBd-M6-RuY" secondAttribute="bottom" constant="8" symbolic="YES" id="aoN-cD-6BX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dew-Bo-UBs" secondAttribute="bottom" constant="20" id="e2I-Rv-NDo"/>
-                            <constraint firstItem="ZCX-2f-brR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="hSl-VD-fN9"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lRH-lm-sJe"/>
-                            <constraint firstItem="sBd-M6-RuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="opE-7O-F94"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eDS-1r-LvF"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="top" secondItem="Cl1-L7-B7V" secondAttribute="bottom" constant="8" symbolic="YES" id="gzP-tp-UjJ"/>
+                            <constraint firstItem="Cl1-L7-B7V" firstAttribute="top" secondItem="xfQ-uZ-vJb" secondAttribute="bottom" constant="17" id="idc-n4-Lc3"/>
+                            <constraint firstItem="Cl1-L7-B7V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p6G-dk-sTs"/>
+                            <constraint firstItem="ZCX-2f-brR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="uqw-Tu-vHy"/>
+                            <constraint firstItem="sBd-M6-RuY" firstAttribute="centerX" secondItem="Cl1-L7-B7V" secondAttribute="centerX" id="xuU-4F-JUo"/>
                         </constraints>
                     </view>
                     <connections>
@@ -69,4 +87,8 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="line" width="329" height="20"/>
+        <image name="quotes" width="579" height="506"/>
+    </resources>
 </document>
